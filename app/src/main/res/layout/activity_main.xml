@@ -7,4 +7,24 @@
     tools:context="com.example.MainActivity">
 
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="doSoundOff"
+        android:text="开启静音" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="doSoundOn"
+        android:text="开启声音" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="doStart"
+        android:text="设置桌面" />
+
+
 </LinearLayout>
